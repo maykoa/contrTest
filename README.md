@@ -1,5 +1,4 @@
-
-### Bienvenidos a las páginas de construcción de software
+Bienvenidos a las páginas de construcción de software
 
 <div>Teachable Machine Image Model</div>
 <button type="button" onclick="init()">Start</button>
@@ -59,12 +58,11 @@
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
-</script>
-
-
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   chat-title="Bot1"
   agent-id="83e45ebe-57a8-4c1e-9b0b-c4e9fd15e2e0"
   language-code="es"
 ></df-messenger>
+</script>
